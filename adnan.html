@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main"></div>
+    <script>
+        let main = document.getElementById('main');
+        main.style.width = '450px';
+        main.style.height = '600px';
+        main.style.background = 'linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 124, 1)43%, rgba(20, 135, 158, 1) 99%)';
+
+        let image = document.createElement('img');
+        image.src = 'https://images.prom.ua/3382847216_w640_h640_taburetka-buk-standart.jpg';
+        image.style.width = '250px';
+        image.style.height = '250px';
+        <!-- image.style.borderRadius = '50%'; -->
+        image.style.marginLeft = '90px';
+        image.style.marginTop = '50px';
+        main.appendChild(image);
+
+        let div1 = document.createElement('div');
+        div1.innerText = "Nyrsyltan";
+        div1.style.color = 'white';
+        div1.style.fontSize = '26px';
+        div1.style.fontWeight = 'bold';
+        div1.style.textAlign = 'center';
+        div1.style.marginTop = '20px';
+        main.appendChild(div1);
+
+        let div2 = document.createElement('div');
+        div2.innerText = "Profesia: Povar";
+        div2.style.color = 'white';
+        div2.style.fontSize = '26px';
+        div2.style.fontWeight = 'bold';
+        div2.style.textAlign = 'center';
+        div2.style.marginTop = '20px';
+        main.appendChild(div2);
+
+        let div3 = document.createElement('div');
+        div3.style.background = 'white';
+        div3.innerText = "lorem bfeyfbhe wfkwhefkewfe wfwfeiwfwh wfefwf weifhbcwkefwffwefw f nyrsyltan dnewuifhwief повар повар он повар и поваар повара повар"
+        div3.style.color = 'black';
+        div3.style.padding = '20px';
+        div3.style.width = '280px';
+        div3.style.height = 'auto';
+        div3.style.borderRadius = '10px';
+        div3.style.marginTop = '30px';
+        div3.style.margin = 'auto';
+        main.appendChild(div3)
+    </script>
+</body>
+</html>
